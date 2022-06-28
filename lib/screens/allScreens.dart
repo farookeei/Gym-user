@@ -1,0 +1,13 @@
+export 'LoginScreen/LoginScreen.dart';
+export 'Profile/Profile.dart';
+export 'DashBoard/dashBoard.dart';
+export 'HomeScreen/homeScreen.dart';
+export 'Workout/workout.dart';
+export 'gym/gym.dart';
+export 'qrScan/qrScan.dart';
+export 'onboard/onboardScreen.dart';
+export "SingleWorkout/singleWorkout.dart";
+export 'pricingDetails/pricingDetails.dart';
+export 'about/about.dart';
+export 'transcations/transaction.dart';
+export './Registor/registorScreen.dart';

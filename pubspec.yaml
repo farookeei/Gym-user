@@ -1,0 +1,64 @@
+name: gym_user
+description: A new Flutter project.
+
+# 
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+ 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  image_picker: ^0.8.0+3
+  flutter_dotenv: ^5.0.0
+  provider: ^5.0.0
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+  dio: ^4.0.0
+  #ui
+  percent_indicator: ^3.0.1
+  fl_chart: ^0.36.3
+  qr_code_scanner: ^0.5.2
+  shimmer: ^2.0.0
+  lottie: ^1.1.0
+  circular_countdown_timer: ^0.2.0
+  #payment
+  razorpay_flutter: ^1.2.7
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.0.6
+  hive_generator: ^1.1.0
+
+ 
+flutter:
+
+ 
+  uses-material-design: true
+ 
+  assets:
+  - assets/images/
+  - assets/images/Bold/
+  - assets/images/Light/
+  - assets/animations/
+  - .env
+  
+  fonts:
+  - family: poppins
+    fonts:
+      - asset: assets/fonts/Poppins-Black.ttf
+      - asset: assets/fonts/Poppins-Bold.ttf
+        weight: 800
+      - asset: assets/fonts/Poppins-Medium.ttf
+        weight: 700
+      - asset: assets/fonts/Poppins-Light.ttf
+        weight: 200
+ 
