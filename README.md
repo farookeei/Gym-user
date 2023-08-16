@@ -1,6 +1,6 @@
 # gym_user
 
-Gym app where users can track their workout plans,get recommendations with beautiful ui
+Fitness app where users can track their workout plans,get recommendations with beautiful ui
 
 
 ![Group 33740](https://user-images.githubusercontent.com/62958353/230867628-45a624a7-e6f3-463f-b88c-7f406ce36e3f.png)
